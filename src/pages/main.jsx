@@ -16,7 +16,6 @@ import BrandSlider from "../components/brandSlider/brandSlider.jsx";
 import Forma from "../components/forma/forma.jsx";
 import Partner from "../components/partner/partner.jsx";
 import MyButton from "../components/button/button.jsx";
-
 import useMediaQuery from "@mui/material/useMediaQuery";
 
 function Main() {
@@ -28,12 +27,12 @@ function Main() {
     console.log(toggle);
   }, [toggle]);
   return (
-    <div className="main ">
+    <div className="main">
       <div className="main-div" style={{ display: toggle ? "none" : "" }}>
-        <Section1 /> {/* nice*/}
-        <Section2 /> {/*   nice*/}
-        <WhyBillz /> {/* nice*/}
-        <Section3 /> {/*   nice*/}
+        <Section1 />
+        <Section2 />
+        <WhyBillz />
+        <Section3 />
         <Section4 />
         <Section5 />
         <Section6 />

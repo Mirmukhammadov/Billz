@@ -51,8 +51,8 @@ function Section8() {
               <span>eng yaxshi mahsulot</span>
             </Partner>
           </div>
-          <div>
-            <Image
+          <div className="section-partner-image">
+            <img
               src={partnerImage}
               width={360}
               height={464}

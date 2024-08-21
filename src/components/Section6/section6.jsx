@@ -3,6 +3,9 @@ import InfoSection from "../infoSection/infoSection.jsx";
 import MyButton from "../button/button.jsx";
 import Image from "../image/image.jsx";
 import firstImage from "../../assets/images/1.png";
+import secondImage from "../../assets/images/section6-2.png";
+import thirdImage from "../../assets/images/section6-3.png";
+import fourthImage from "../../assets/images/section6-4.png";
 
 import useMediaQuery from "@mui/material/useMediaQuery";
 
@@ -35,9 +38,9 @@ function Section6() {
         />
         <div className="image-div">
           <Image src={firstImage} width="244" height="296" />
-          <Image src={firstImage} width="244" height="296" />
-          <Image src={firstImage} width="244" height="296" />
-          <Image src={firstImage} width="244" height="296" />
+          <Image src={secondImage} width="244" height="296" />
+          <Image src={thirdImage} width="244" height="296" />
+          <Image src={fourthImage} width="244" height="296" />
         </div>
         <MyButton primary={true} isOpen={tablet ? true : false}>
           Konsultatsiya uchun so'rov qoldirish

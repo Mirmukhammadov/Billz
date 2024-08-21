@@ -78,7 +78,7 @@ function Forma({ style, toggle }) {
           </div>
         </div>
 
-        <div>
+        <div className="form-button">
           <MyButton primary={true} isOpen={true} isChild={true}>
             So'rov qoldirish
             <img src={arrowRight} alt="" />
