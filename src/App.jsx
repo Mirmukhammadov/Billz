@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Main from "./pages/main";
+import FormSent from "./pages/FormSent";
 
 import "./App.css";
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <Main />
       {/* <WhyBillz /> */}
+      {/* <FormSent /> */}
     </>
   );
 }
