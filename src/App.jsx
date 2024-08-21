@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Main from "./pages/main";
-import FormSent from "./pages/FormSent";
+// import FormSent from "./pages/FormSent.jsx";
 
 import "./App.css";
 
