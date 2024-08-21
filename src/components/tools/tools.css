@@ -1,0 +1,27 @@
+.tools {
+  max-width: 244px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 32px 48px;
+  border-radius: 48px;
+  gap: 20px;
+}
+
+.tools > img {
+  width: 33px;
+  height: 32px;
+}
+
+.tools > p {
+  max-width: 100px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+}

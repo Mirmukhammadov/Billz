@@ -1,0 +1,10 @@
+.h1 {
+  color: blue !important;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}

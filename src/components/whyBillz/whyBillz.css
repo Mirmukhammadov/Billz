@@ -1,0 +1,35 @@
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-item {
+  display: inline-block;
+  padding: 0 4px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+h1 > span {
+  color: blue;
+}
+
+.marquee-heading-tablet {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.marquee-heading-mobile {
+  font-size: 28px;
+  line-height: 33px;
+}
+
+/* @media (max-width: 701px) {
+} */

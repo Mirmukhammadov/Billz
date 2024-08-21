@@ -1,0 +1,140 @@
+.section8 {
+  background-color: #f1f3f5;
+  max-width: 100vw;
+  width: 100%;
+  padding: 76px 171px;
+  border-radius: 128px;
+}
+
+.section8 > .container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: space-between;
+}
+.section8-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section8-info > button {
+  border-radius: 32px;
+}
+
+.section8-info > h2 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 400;
+}
+
+.section8-info > h2 > span {
+  color: blue;
+}
+
+.section-partner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.section-partner-div {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.section-partner > div:last-child {
+  width: 30%;
+  gap: 16px;
+}
+
+.partner-image {
+  width: 100% !important;
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+  .section8 {
+    padding: 36px 85px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .section-partner-div {
+    gap: 16px;
+  }
+
+  .section-partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .section8-info > h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .section8-info-button > button {
+    padding: 12px !important;
+  }
+
+  .section8 {
+    padding: 24px 55px;
+    border-radius: 64px;
+  }
+
+  .section-partner {
+    gap: 20px;
+  }
+
+  .section-partner.partner-image {
+    width: 170px !important;
+    height: 200px !important;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 700px) {
+  .section8-info > h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .section-partner-div {
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+
+  .section-partner > div:last-child {
+    width: 50%;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .section8-info > h2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .section8 {
+    padding: 48px 0px 48px 0px;
+  }
+}

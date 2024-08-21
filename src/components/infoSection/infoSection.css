@@ -1,0 +1,99 @@
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 32px;
+}
+
+.infoSection__span {
+  color: #94a3b8;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: auto;
+}
+
+.infoSection__span-big {
+  font-size: 64px;
+  line-height: 76.8px;
+}
+
+.infoSection__heading {
+  /* max-width: 1100px;
+  width: 100%; */
+  align-items: center;
+  font-size: 48px;
+  line-height: 86.4px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.infoSection__heading > span {
+  color: #0065ff;
+}
+
+.infoSection__paragraph > span {
+  color: #0065ff;
+}
+
+.infoSection__paragraph {
+  max-width: 850px;
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31.2px;
+  color: #475569;
+}
+
+.infoSection.tablet {
+  gap: 16px;
+}
+
+.infoSection.tablet .infoSection__span {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.infoSection.tablet .infoSection__span-big {
+  font-size: 36px;
+  line-height: 48.8px;
+}
+
+.infoSection.tablet .infoSection__heading {
+  max-width: 800px;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.infoSection.tablet .infoSection__paragraph {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.infoSection.mobile {
+  gap: 12px;
+}
+
+.infoSection.mobile .infoSection__span {
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.infoSection.mobile .infoSection__span-big {
+  font-size: 24px;
+  line-height: 16.8px;
+}
+
+.infoSection.mobile .infoSection__heading {
+  font-size: 18px;
+  line-height: 28.2px;
+}
+
+.infoSection.mobile .infoSection__paragraph {
+  font-size: 16px;
+  line-height: 20.8px;
+}

@@ -1,0 +1,60 @@
+.tip > div {
+  max-width: 496px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 20px 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0);
+}
+
+.tip > span {
+  display: block;
+  background-color: #f1f3f5;
+  height: 4px;
+  width: 100%;
+}
+
+.tip__paragraph {
+  max-width: 220px;
+  width: 100%;
+  font: bold;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
+.tip-number {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #0065ff;
+}
+
+@media (max-width: 700px) {
+  .tip > div {
+    max-width: 350px !important;
+    width: 100%;
+    gap: 4px;
+    padding: 16px;
+  }
+
+  .tip > span {
+    height: 2px;
+  }
+
+  .tip__paragraph {
+    max-width: 150px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .tip-number {
+    max-width: 150px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

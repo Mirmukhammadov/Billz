@@ -1,0 +1,54 @@
+.countries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  background-color: #ffffff;
+  max-width: 1024px;
+  width: 100%;
+  box-shadow: 0px 0px 64px 0px rgba(0, 0, 0, 0.08);
+  padding: 32px;
+  border-radius: 76px;
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  margin: auto; /* Center horizontally */
+}
+
+/* Responsive .countries-div */
+.countries-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.countries_heading {
+  max-width: 700px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38.4px;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 701px) {
+  .countries {
+    gap: 26px;
+  }
+  .countries_heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.4px;
+  }
+
+  .countries-div {
+    gap: 12px;
+  }
+
+  .countries {
+    border-radius: 48px;
+    padding: 32px;
+    gap: 24px;
+  }
+}

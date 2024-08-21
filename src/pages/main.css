@@ -1,0 +1,73 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+}
+
+.main-button {
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: white; /* Optional: add background color */
+  padding: 10px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.main-div {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+}
+
+.smth {
+  position: relative;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  /* width: 1300px; */
+}
+
+.image-div {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  gap: 12px;
+}
+
+.image-div > img {
+  object-fit: none;
+}
+
+.span-div {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 100;
+}
+
+.span-div-res {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media (max-width: 700px) {
+  .main {
+    gap: 32px;
+  }
+}

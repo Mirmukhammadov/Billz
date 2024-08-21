@@ -1,0 +1,25 @@
+.section9 {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.section9 > div {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.section9-heading {
+  font-weight: 400;
+  text-align: center;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.section9-heading > span {
+  color: blue;
+}
