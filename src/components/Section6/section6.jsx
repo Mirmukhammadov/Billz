@@ -42,9 +42,11 @@ function Section6() {
           <Image src={thirdImage} width="244" height="296" />
           <Image src={fourthImage} width="244" height="296" />
         </div>
-        <MyButton primary={true} isOpen={tablet ? true : false}>
-          Konsultatsiya uchun so'rov qoldirish
-        </MyButton>
+        <div>
+          <MyButton primary={true} isOpen={tablet ? true : false}>
+            Konsultatsiya uchun so'rov qoldirish
+          </MyButton>
+        </div>
       </div>
     </>
   );
