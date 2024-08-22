@@ -13,7 +13,7 @@ import icon1 from "../../assets/icons/iconcash.svg";
 
 import useMediaQuery from "@mui/material/useMediaQuery";
 
-import "./section1.css";
+import "./Section1.css";
 
 function Section1() {
   const moreThan1100 = useMediaQuery("(min-width: 1101px)");
